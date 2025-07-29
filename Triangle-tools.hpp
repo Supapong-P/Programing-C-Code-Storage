@@ -23,3 +23,24 @@ class Triangle {
         std::cout << "Area of triangle = " << area << std::endl;
 	}
 };
+
+
+class Rectangle {
+    double length, width;
+    
+    public:
+    void setRectangle(double l, double w) {
+        length = l;
+        width = w;
+    }
+    
+    public:
+    void perimeter() {
+        std::cout << "Perimeter of rectangle = " << 2 * (length + width) << std::endl;
+    }
+    
+    public:
+    void area() {
+        std::cout << "Area of rectangle = " << length * width << std::endl;
+    }
+};
